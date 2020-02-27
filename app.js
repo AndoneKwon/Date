@@ -40,7 +40,7 @@ const Post = new Schema({
 
 const init = () => {
   while (true) {
-    if (new Date().toFormat('MM') === "00")
+    if (new Date().toFormat('MM') === "18")
       break;
   }
 
